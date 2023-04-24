@@ -1,0 +1,87 @@
+/* 共通系 */
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+p{
+    line-height: 50px;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 60px;
+}
+.push{
+    height: 100px;
+    margin: 40px;
+}
+/* header */
+.header{
+    display: flex;
+    align-items: center;
+}
+.header_logo img{
+    width: 20%;
+}
+/* toppage */
+.toppage_image{
+    margin: auto;
+}
+.toppage_image img{
+    width: 30%;
+}
+/* startpage */
+.startpage{
+    display: none;
+}
+.startpage_job{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.startpage_job span{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+.startpage_text{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.startpage_text h2{
+    margin: 30px;
+}
+.startpage_text h2 span{
+    color: red;
+    font-size: 20px
+}
+.jobcard{
+    width: 20%;
+}
+.go_playpage{
+    display: none;
+}
+/* playpage */
+.playpage{
+    display: none;
+}
+.playgame_content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+/* goal */
+.goal img{
+    width: 100%;
+}
+.goal{
+    display: none;
+}
+/* kaiji */
+.kaiji, .bankrupt{
+    display: none;
+}
+.kaiji img,.bankrupt img{
+    width: 1600px;
+}
